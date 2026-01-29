@@ -6,6 +6,79 @@
     <title>Formulário</title>
 </head>
 <body>
-    
+    <h1>Formulário</h1>
+    <form>
+        <label for="camponome">Nome</label>
+        <input type="text" id="camponome" name="Nome"  placeholder="Digite seu nome" required>
+        <br> <br>
+        <label for="campo_sobrenome">Sobrenome</label>
+        <input type="text" id="campo_sobrenome" name="sobrenome" placeholder="Digite seu sobrenome"required>
+        <br> <br>
+        <label for="campo_email">Email</label>
+        <input type="email" id="campo_email" name="email" placeholder="Digite seu email"required>
+        <br> <br>
+        <label for="campo_senha">Senha</label>
+        <input type="password" id="campo_senha" name="senha" placeholder="Digite uma senha"required>
+
+        <br> <br>
+        <hr>
+        <br>
+
+        <h2>Quantos anos você tem?</h2>
+        <br>
+        <input type="radio" id="10a15" name="idade">
+        <label for="10a15">10 a 15 anos</label>
+        <br> <br>
+        <input type="radio" id="16a25" name="idade">
+        <label for="16a25">16 a 25 anos</label>
+        <br> <br>
+        <input type="radio" id="26a39" name="idade">
+        <label for="26a39">26 a 39 anos</label>
+        <br> <br>
+        <input type="radio" id="40a59" name="idade">
+        <label for="40a59">40 a 59 anos</label>
+        <br> <br>
+        <input type="radio" id="60mais" name="idade">
+        <label for="mais">60+</label>
+        <br> <br>
+        <hr>
+        <br>
+        <h2>O que você possui em casa?</h2>
+        <input type="checkbox" id="TV" name="televisão">
+        <label for="TV">Televisão</label>
+        <br> <br>
+        <input type="checkbox" id="computador" name="computador">
+        <label for="computador">Computador</label>
+        <br> <br>
+        <input type="checkbox" id="geladeira" name="geladeira">
+        <label for="geladeira">Geladeira</label>
+        <br> <br>
+        <input type="checkbox" id="sofa" name="sofá">
+        <label for="sofa">Sofá</label>
+        <br> <br>
+        <input type="checkbox" id="cama" name="cama">
+        <label for="cama">Cama</label>
+        <br> <br>
+        <h2>Escolha uma cor</h2>
+        <select name="cores">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="preto">Preto</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="roxo">Roxo</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+        </select>
+
+        <br> <br>
+        <hr>
+        <br>
+        <h2>Deixe uma mensagem</h2>
+        <br>
+        <label for=""></label>
+        <textarea placeholder="Digite aqui..." rows="10" cols="30" name="mensagem"></textarea>
+
+        <br> <br>
+        <input type="submit" value="Enviar Formulário">
+    </form>
 </body>
 </html>
